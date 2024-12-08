@@ -2,7 +2,7 @@
 import React from 'react';
 import {FaQuoteLeft,FaQuoteRight} from "react-icons/fa";
 // eslint-disable-next-line no-unused-vars
-import {FiChevronLeft,FiChevronRight} from "react-icons/fi";
+
 
 const Card = (props) => {
     let review=props.review;
@@ -14,10 +14,9 @@ const Card = (props) => {
         </div>
         <div className="text-center mt-7">
             <p className="font-bold text-2xl capitalize">{review.name}</p>
-        </div>
-        <div className="text-center mt-7">
             <p className="text-violet-300 uppercase text-sm">{review.job}</p>
         </div>
+        
         <div classname="text-voilet-400 mx-auto mt-5">
             <FaQuoteLeft/>
         </div>
@@ -27,15 +26,7 @@ const Card = (props) => {
         <div classname="text-voilet-400 mx-auto mt-5">
             <FaQuoteRight/>
         </div>
-        <div className="flex text-3xl mt-5 gap-3 text-violet-400 font-bold">
-            <button className="cursor-pointer hover:text-violet-500"><FiChevronLeft/></button>
-            <button className="cursor-pointer hover:text-violet-500"><FiChevronRight/></button>
-        </div>
-        <div>
-            <button>
-                Surprise me
-            </button>
-        </div>
+        
       
     </div>
   )
