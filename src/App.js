@@ -1,10 +1,11 @@
 import React from "react";
+import reviews from "./data";
 
 const App = () => {
   return <div>
     <div><h1>Our Testimonials</h1>
     <div></div>
-    <Testimonial/></div>
+    <Testimonial reviews={reviews}/></div>
   </div>;
 };
 
