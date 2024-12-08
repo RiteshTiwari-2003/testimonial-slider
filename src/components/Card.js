@@ -13,7 +13,7 @@ const Card = (props) => {
             <div className="w-[140px] h-[140px] bg-violet-500 rounded-full absolute top-[-6px] z-[-10] left-[10px]"></div>
         </div>
         <div className="text-center mt-7">
-            <p className="font-bold text-2xl capitalize">{review.name}</p>
+            <p className="tracking-wider font-bold text-2xl capitalize">{review.name}</p>
             <p className="text-violet-300 uppercase text-sm">{review.job}</p>
         </div>
         
