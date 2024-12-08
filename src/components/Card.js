@@ -23,6 +23,15 @@ const Card = (props) => {
         <div>
             <FaQuoteRight/>
         </div>
+        <div>
+            <button>+</button>
+            <button>*</button>
+        </div>
+        <div>
+            <button>
+                Surprise me
+            </button>
+        </div>
       
     </div>
   )
