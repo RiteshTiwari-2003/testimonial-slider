@@ -27,9 +27,9 @@ const Card = (props) => {
         <div classname="text-voilet-400 mx-auto mt-5">
             <FaQuoteRight/>
         </div>
-        <div>
-            <button><FiChevronLeft/></button>
-            <button><FiChevronRight/></button>
+        <div className="flex text-3xl mt-5 gap-3 text-violet-400 font-bold">
+            <button className="cursor-pointer hover:text-violet-500"><FiChevronLeft/></button>
+            <button className="cursor-pointer hover:text-violet-500"><FiChevronRight/></button>
         </div>
         <div>
             <button>
